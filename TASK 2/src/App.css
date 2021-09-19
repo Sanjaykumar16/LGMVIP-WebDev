@@ -1,0 +1,104 @@
+body{
+  background:url('https://images.squarespace-cdn.com/content/v1/52abb9b9e4b0cb06a591754d/1461629264737-8XLMH8ZYAISH87VD8WER/planet-earth.jpg?format=2500w')
+  }
+  .body{
+    height: 200px;
+  }
+
+.loader{
+  font-size: 50px;
+  margin-left: 550px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.animated{
+  -webkit-animation-duration: 7s;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeOut{
+0%{opacity: 1;}
+100%{opacity: 0;}
+}
+@keyframes fadeOut{
+  0% {opacity: 1;}
+  100%{opacity: 0;}
+  }
+.fadeout{
+-webkit-animation-name: fadeOut;
+animation-name: fadeOut;
+}
+.get-btn{
+    position: absolute;
+     right: 20px;
+     top: 95px; 
+    display: flex;
+    z-index: 1;
+    border-radius: 10px;
+    color:black;
+    background-color:pink;
+    font-size: 2.5rem;
+    font-family:Satisfy;
+    align-items: center;
+    
+}
+.get-btn:hover{
+  color:rgb(22, 76, 238);
+}
+.container-fluid a{
+  color:white;
+  margin-top: 30px;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  padding-left: 50px;
+  align-items: center;
+  position: relative;
+  font-size: 2.2rem;
+  font-family:Satisfy;
+  text-decoration: none;
+}
+.container-fluid a p{
+  align-items: center;
+  display: block;
+  padding: 50px 190px;
+}
+.container-fluid a:hover{
+color:yellow;
+}
+
+
+.dm{
+  padding: 0px 60px;
+}
+.main{
+  background-color:rgb(247, 253, 158);
+  margin-left: 300px;
+  margin-bottom: 100px;
+  display:inline-block;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  top: 0%;
+  font-family: Satisfy;
+  font-size: 1.5rem;
+}
+.main:hover{
+  background-color:rgb(253, 228, 207);
+  border: 5px solid yellow;
+}
+.ig{
+  object-fit: cover;
+  
+}
+.ig:hover{
+  opacity: 0.6;
+}
+.body{
+  color: darkblue;
+  justify-content: center;
+  position: relative;
+}
